@@ -309,7 +309,7 @@ contract BEP20Token is Context, IBEP20, Ownable, TimeLock {
         _name = "Z Coin";
         _symbol = "ZCO";
         _decimals = 18;
-        _totalSupply = 1000000000 * (10**uint256(_decimals));
+        _totalSupply = 1500000000 * (10**uint256(_decimals));
         _balances[msg.sender] = _totalSupply;
 
         emit Transfer(address(0), msg.sender, _totalSupply);
