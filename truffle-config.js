@@ -10,7 +10,7 @@ module.exports = {
   },
 
   networks: {
-    development: {
+    dev: {
       host: "127.0.0.1",
       port: 8545,
       network_id: "*" // Match any network id
@@ -33,7 +33,7 @@ module.exports = {
 
   // Set default mocha options here, use special reporters etc.
   mocha: {
-    timeout: 100000
+    //timeout: 100000
   },
 
   // Configure your compilers
